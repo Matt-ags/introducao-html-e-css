@@ -1,0 +1,28 @@
+body{
+
+    background-color: #bdb495;
+    font-family: Arial;
+}
+
+
+.titulo{
+
+background-color: #020202 ;
+padding-top: 10px;
+padding-bottom: 10px;
+font-family: Arial ; color: aliceblue;
+font-weight: 100px;
+
+}
+
+.foto1,.foto2,.foto3{
+
+border: 1px solid;
+border-radius: 10px;
+width: 430px;
+
+/* Esse margin não sei oq me ajudou bastante!Tinha duvida em como centralizar elementos pelo css. */
+
+margin-left: auto;
+margin-right: auto;
+}

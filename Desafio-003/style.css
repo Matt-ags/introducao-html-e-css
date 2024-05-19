@@ -1,0 +1,126 @@
+/* Começando com o alinhamento dos textos, fontes e etc. */
+
+body{
+
+    text-align: center;
+    font-family: Arial;
+    color: #ffffff;
+    text-shadow: 0.2em 0.2em 0.3em black;
+    background-color: rgb(8, 0, 39); 
+    padding: 20px;
+    font-weight: 100;
+    font-size: small;
+    
+}
+
+
+.linha {
+
+    width: 450px;
+    padding-left: 23px; 
+
+}
+
+
+form {
+
+    text-align: center; 
+    padding-right: 10px;
+    
+}
+
+/* Cara, olha que maneiro, vc consegue, a partir de ficar escolhendo o tipo de borda, fazer um "efeito" de sombra, gostei muito, mas acho que deixa o site pesado, não sei... */
+
+input, select, textarea{
+
+    background-color: #F3DCB2;
+    padding: 3px;
+    border-radius: 5px;
+    border-right: black solid 2px;
+    border-bottom: black solid 2px;
+    border-top: 0px;
+    border-left: 0px;
+    width: 250px;
+    height: 30px;
+
+}
+
+
+/* Aqui, sinceramente é uma gambiarra, em que de olho, ficava vendo se estava muito pra esquerda, ou vice versa.  e Alterar tamanho das caixas. */
+
+.envio{width: 80px;}
+
+.assunto{padding-right: 40px;}
+
+.mensagem{padding-right: 310px;}
+
+.suamensagem{padding-right: 88px; height: 30px;}
+
+
+/* Dimencionando/Alterando tamanho, posição, elementos no botão de SELEÇÃO */
+
+select{
+
+    padding-left: 100px;
+
+}
+
+/* Dimencionando/Alterando tamanho, posição, elementos no botão de MENSAGEM */
+
+textarea{
+
+    padding-left: 20px;
+    margin: -13px 0;
+    float: right;
+    resize: none;
+    height: 80px;
+    
+}
+
+/* Dimencionando/Alterando tamanho, posição, elementos no botão de NOME E EMAIL E ENTRAR */
+
+input{
+
+    padding-right: 20px;
+
+}
+.envio{ 
+
+    background-color: black;
+    font-family: Arial; 
+    font-weight: 700; 
+    color: #ffffff ;
+    padding-left: 20px;
+    text-shadow: rgb(112, 112, 112) 0.1em 0.1em 0.2em;
+   
+}
+
+/* criação do fundo marrom */
+
+.tudo{
+
+    background-color: #8A4513; 
+    width: 500px; 
+    height: 400px;
+    padding-top: 10px; 
+    border-radius: 20px;
+    align-items: center;
+}
+
+/* o botão de ENVIAR (ta com a classe entar para diferenciar) */
+
+.entrar{
+
+    position: fixed;
+    padding-left: 126px;
+
+
+}
+
+/* CORES QUE ESTÃO PRESENTES NO FORMULÁRIO ORIGINAL: 
+FUNDO: #8A4513
+CAMPOS DE RESPOSTA: #F3DCB2
+LINHA HORIZONTAL: #190C03
+ */
+
+ /* Cara, um problema que temo em ter, é que usei muita gambiarra, não foi algo milimétricamente calculado, algo que temo em dar errado por exemplo na responsividade, e na velocidade de carregamento do site. Como posso "falicitar" este processo? Ou deixar bases para ter certeza do que distanciar, ou se este distanciamento está correto. */
